@@ -1,0 +1,45 @@
+/* Apply basic styling to the mixer container */
+#mixer {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the track container */
+  .track {
+    margin: 20px;
+  }
+  
+  /* Style audio player controls */
+  audio {
+    width: 100%;
+  }
+  
+  /* Style sliders */
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Style headers */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Add some padding to the controls */
+  .controls {
+    padding: 10px;
+  }
+  

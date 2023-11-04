@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Music Mixer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Interactive Music Mixer</h1>
+    <div id="mixer">
+        <div class="track">
+            <h2>Track 1</h2>
+            <audio id="audio1" src="track1.mp3" controls></audio>
+            <input type="range" id="slider1" min="0" max="1" step="0.01" value="1">
+        </div>
+        <div class="track">
+            <h2>Track 2</h2>
+            <audio id="audio2" src="track2.mp3" controls></audio>
+            <input type="range" id="slider2" min="0" max="1" step="0.01" value="1">
+        </div>
+        <div class="track">
+            <h2>Track 3</h2>
+            <audio id="audio3" src="track3.mp3" controls></audio>
+            <input type="range" id="slider3" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+
+    <script src="mixer.js"></script>
+</body>
+</html>
